@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/47ef504d31.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <img src="images/beach.jpg"class="logo">
+
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm Sirisha</h1>
+            <p>This is my Personal Portfolio Website</p>
+        </div>
+    </div>
+    </div>
+   <section class="about">
+    <div id="About"></div>
+    <div class="main">
+        <nav>
+        <img src="C:\Users\siriv\portfolio\Fashion.jpg">
+    </nav>
+    <div class="about-col-2">
+                
+        <h1 class="sub-title" style="color: brown;">About Me</h1>
+        <p>I'm,Sirisha currently a graduate CSE student at BVCITS College.
+            I am interested in Software Designs,especially on the Web Development of web applications.I always thought about the web designs,had a lot of interesting things to learn about it.My interests include UX design,branding and other creative stuff!.I hope to apply my Knowledge and skills. 
+        </p>
+        <div class="tab-titles" style="color: burlywood;">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills" style="color: red;">
+            <ul style="color: red;">
+                <li><span>Java</span><br>Designing Web/App interfaces</li>
+                <li><span>Web development</span><br>Web app Development</li>
+                <li><span>SQL</span><br>Applications of SQL Database Administration</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="Education">
+            <ul>
+                <li style="color: white;"><span>2018</span><br>Completed 10th class</li>
+                <li style="color: white;"><span>2018</span><br>Comleted Secondary high school</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+   </section>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Our team provides superior web design services that deliver results.And our goal is collaborate
+                        with your business to create a memorable website that helps you achieve your goals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Java</h2>
+                    <p>Our team provides superior designing web services that deliver results.And we can develop android
+                        applications also that helps you achieve your goals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-figma"></i>
+                    <h2>Web Defensing</h2>
+                    <p>Our team provides superior designing web services that deliver results.And we can develop android
+                        applications also that helps you achieve your goals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h2>Web Coloning</h2>
+                    <p>Our team provides superior designing web services that deliver results.And we can develop android
+                        applications also that helps you achieve your goals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-slack"></i>
+                    <h2>Graphic Design</h2>
+                    <p>Our team provides superior designing web services that deliver results.And we can develop android
+                        applications also that helps you achieve your goals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-digital-ocean"></i>
+                    <h2>Digital Marketing</h2>
+                    <p>Our team provides superior designing web services that deliver results.And we can develop android
+                        applications also that helps you achieve your goals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work">
+                <img src="C:\Users\siriv\portfolio\Online shOPPING.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app gives all movie songs in all languages.In this app all movie playlists also avaliable through our favorite singers in this app.
+                        Download it from play store.
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="C:\Users\siriv\Downloads\Stock market.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app gives all movie songs in all languages.In this app all movie playlists also avaliable through our favorite singers in this app.
+                        Download it from play store.
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="C:\Users\siriv\portfolio\jeshoots-com-eCktzGjC-iU-unsplash.jpg">
+                <div class="layer">
+                    <h3>Video Games App</h3>
+                    <p>The app gives fun and entertainment for kids and youngstars.In this we can improve skills and sharpen our brains through fun and joy.
+                        Download it from play store.
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </p>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>abvax3456@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9675432810</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"></a><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""></a><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""></a><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""></a><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Sirisha danthuluri (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© Copyright 2022-2023.All rights reserved.Developed by Sirisha.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function openmenu() {
+            sidemenu.style.right = "-200";
+        }
+        (function(){
+                $('.flex-container').waitForImages(function() {
+                    $('.spinner').fadeOut();
+                }, $.noop, true);
+                
+                $(".flex-slide").each(function(){
+                    $(this).hover(function(){
+                        $(this).find('.flex-title').css({
+                            transform: 'rotate(0deg)',
+                            top: '10%'
+                        });
+                        $(this).find('.flex-about').css({
+                            opacity: '1'
+                        });
+                    }, function(){
+                        $(this).find('.flex-title').css({
+                            transform: 'rotate(90deg)',
+                            top: '15%'
+                        });
+                        $(this).find('.flex-about').css({
+                            opacity: '0'
+                        });
+                    })
+                });
+            })();
+    </script>
+</body>
+
+</html>
